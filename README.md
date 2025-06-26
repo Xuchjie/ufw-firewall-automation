@@ -16,47 +16,8 @@ This project automates basic firewall configuration on Linux systems using UFW (
 - `sudo` privileges to modify firewall rules  
 
 ## Setup Instructions  
-
 1. Clone this repository:  
    ```bash
    git clone https://github.com/Xuchjie/ufw-firewall-automation.git
-Navigate into the project directory:
 
-bash
-Copy
-Edit
-cd ufw-firewall-automation
-Make the script executable:
 
-bash
-Copy
-Edit
-chmod +x firewall-setup.sh
-Run the script with sudo:
-
-bash
-Copy
-Edit
-sudo ./firewall-setup.sh
-When prompted, enter any additional ports you want to allow separated by spaces, or press Enter to skip.
-
-Usage
-The script will automatically install UFW if missing and enable it.
-
-Sets default firewall policies: deny incoming, allow outgoing.
-
-Opens SSH port 22 for remote administration.
-
-Prompts for additional ports to open securely.
-
-Validates ports before adding rules to avoid errors.
-
-Project Structure
-firewall-setup.sh: Bash script that automates UFW firewall setup
-
-README.md: Project documentation
-
-AI Tools Used
-ChatGPT: Assisted with brainstorming, code snippets, and scripting help
-
-GitHub Copilot: Provided code completions and syntax suggestions
